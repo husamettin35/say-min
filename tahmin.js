@@ -21,7 +21,7 @@ if(sayi < 0 || sayi > 100){
     alert("0-100 aralığında sayı girmelisiniz.");
 }else{
      if( sayi === tahmin) {
-            console.log("Tebrikler", sayac,".", "seferde bildiniz. Puanınız",(100-((100/can)*(sayac-1))));
+            console.log("Tebrikler", sayac,".", "seferde bildiniz.","Doğru Sayı:", tahmin  ,"Puanınız",(100-((100/can)*(sayac-1))));
             break
         }
     else if(sayi < tahmin){
